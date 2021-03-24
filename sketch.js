@@ -46,7 +46,7 @@ function draw() {
         balloon.scale = balloon.scale -0.01;
       }
       else if(keyDown(DOWN_ARROW)){
-        writeHeight(1,0);
+        writeHeight(0,1);
         balloon.addAnimation("hotAirBalloon",balloonImage2);
         balloon.scale = balloon.scale +0.01;
       }
